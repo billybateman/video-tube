@@ -25,9 +25,6 @@ define('CDN_URL', "/cdn");
 define('_NO_REPLY_EMAIL', 'no-reply@yourowntv.com');
 define('_NO_REPLY_NAME', 'YourOwnTV');
 
-define('YOUTUBE_API', 'AIzaSyBm67L-QZEOUr4WPMfo0-72c9a8siNc6v0');
-define('TMDB_API', '466bc453a3183a37632fcc3b0356d04a');
-define('TMDB_API_READ_ACCESS', 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0NjZiYzQ1M2EzMTgzYTM3NjMyZmNjM2IwMzU2ZDA0YSIsIm5iZiI6MTcyNzA3NDc3Ni42NjQzMzgsInN1YiI6IjY2ZjExMDc1MDMxNWI5MWY0NjNhZjUwMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.01sZCe4QyltwIX_8Y60LMbus2mpDLlZ771ed25kWAic');
 
 $config['libraries'] =  array('session');
 $config['models'] =  array(
