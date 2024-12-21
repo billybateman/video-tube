@@ -1,0 +1,12 @@
+{
+    "config": {
+        "platform-check": false
+    },
+    "name": "admin/sites",
+    "require": {
+        "pusher/pusher-php-server": "^7.2",
+        "athlon1600/youtube-downloader": "^4.0",
+        "mokhosh/laravel-youtube-downloader": "^1.0"
+    }
+
+}

@@ -1,0 +1,1932 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Buttons | Probic - Responsive Bootstrap 5 Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="Pichforest" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <link href="assets/libs/prismjs/themes/prism.css" rel="stylesheet" type="text/css" />
+    <link href="assets/libs/prismjs/plugins/toolbar/prism-toolbar.css" rel="stylesheet" type="text/css" />
+    <link href="assets/libs/prismjs/plugins/line-numbers/prism-line-numbers.css" rel="stylesheet" type="text/css" />
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+<body data-sidebar="dark">
+
+<!-- <body data-layout="horizontal" data-topbar="colored"> -->
+
+<!-- Begin page -->
+<div id="layout-wrapper">
+
+    
+    <header id="page-topbar">
+        <div class="navbar-header">
+            <div class="d-flex">
+                <!-- LOGO -->
+                <div class="navbar-brand-box">
+                    <a href="index.html" class="logo logo-dark">
+                        <span class="logo-sm">
+                            <img src="assets/images/logo-light-sm.png" alt="" height="22">
+                        </span>
+                        <span class="logo-lg">
+                            <img src="assets/images/logo-dark.png" alt="" height="22">
+                        </span>
+                    </a>
+
+                    <a href="index.html" class="logo logo-light">
+                        <span class="logo-sm">
+                            <img src="assets/images/logo-light-sm.png" alt="" height="22">
+                        </span>
+                        <span class="logo-lg">
+                            <img src="assets/images/logo-light.png" alt="" height="22">
+                        </span>
+                    </a>
+                </div>
+
+                <button type="button" class="btn btn-sm px-3 font-size-16 header-item vertical-menu-btn">
+                    <i class="fa fa-fw fa-bars"></i>
+                </button>
+
+                <div class="dropdown d-none d-lg-block ms-2">
+                    <button type="button" class="btn header-item" data-bs-toggle="dropdown" aria-haspopup="false"
+                        aria-expanded="false">
+                        <span>Components</span>
+                        <i class="mdi mdi-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-xl p-2">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a class="dropdown-item" href="ui-alerts.html">Alerts</a>
+                                <a class="dropdown-item" href="ui-buttons.html">Buttons</a>
+                                <a class="dropdown-item" href="ui-cards.html">Cards</a>
+                                <a class="dropdown-item" href="ui-dropdowns.html">Dropdowns</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Lightbox</a>
+                                <a class="dropdown-item" href="ui-modals.html">Modals</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Range Slider</a>
+                            </div>
+                            <div class="col-md-6">
+                                <a class="dropdown-item" href="ui-progressbars.html">Progress Bars</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Sweet-Alert</a>
+                                <a class="dropdown-item" href="ui-tabs-accordions.html">Tabs & Accordions</a>
+                                <a class="dropdown-item" href="ui-typography.html">Typography</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">General</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Rating</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Notifications</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dropdown dropdown-mega d-none d-lg-block">
+                    <button type="button" class="btn header-item" data-bs-toggle="dropdown" aria-haspopup="false"
+                        aria-expanded="false">
+                        <span>Categories</span>
+                        <i class="mdi mdi-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu p-2 dropdown-megamenu">
+                        <div class="row">
+                            <div class="col">
+                                <h5 class="font-size-14 mx-4 mt-2">Computers & Accessories</h5>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Laptops &amp; Tablets</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Desktop Computers</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Networking Products (NAS)</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Monitors</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Bags, Cases &amp; Sleeves</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Batteries</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Charges &amp; Adapters</a>
+                            </div>
+                            <div class="col">
+                                <h5 class="font-size-14 ms-4 mt-2">Smartphones & Tablets</h5>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Apple iPhone</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Android Smartphones</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Phablets</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Apple iPad</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Android Tablets</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Tablets with Keyboard</a>
+                            </div>
+                            <div class="col">
+                                <h5 class="font-size-14 ms-4 mt-2">Television & Video</h5>
+                                <a class="dropdown-item" href="ui-buttons.html#!">TV Sets</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Home Theater Systems</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">DVD Players & Recorders</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">DVD-VCR Combos</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Projectors</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Projection Screens</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Satelite Television</a>
+                            </div>
+                            <div class="col">
+                                <h5 class="font-size-14 ms-4 mt-2">Cameras, Photo & Video</h5>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Point & Shoot Digital Cameras</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">DSLR Cameras</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Mirrorless Cameras</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Body Mounted Cameras</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Camera Lenses</a>
+                                <a class="dropdown-item" href="ui-buttons.html#!">Video Studio</a>
+                            </div>
+                            <div class="col">
+                                <div class="py-lg-2 pr-lg-2">
+                                    <img src="assets/images/illustrator/1.png" alt="" class="img-fluid mx-auto"
+                                        style="max-height: 250px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex">
+                <div class="dropdown d-inline-block">
+                    <button type="button" class="btn header-item" data-bs-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <i class="icon-sm" data-feather="search"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0">
+                        <form class="p-2">
+                            <div class="search-box">
+                                <div class="position-relative">
+                                    <input type="text" class="form-control rounded bg-light border-0"
+                                        placeholder="Search...">
+                                    <i class="mdi mdi-magnify search-icon"></i>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="dropdown d-inline-block language-switch">
+                    <button type="button" class="btn header-item" data-bs-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <img id="header-lang-img" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-end">
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="eng">
+                            <img src="assets/images/flags/us.jpg" alt="user-image" class="me-1" height="12"> <span
+                                class="align-middle">English</span>
+                        </a>
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp">
+                            <img src="assets/images/flags/spain.jpg" alt="user-image" class="me-1" height="12"> <span
+                                class="align-middle">Spanish</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr">
+                            <img src="assets/images/flags/germany.jpg" alt="user-image" class="me-1" height="12"> <span
+                                class="align-middle">German</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it">
+                            <img src="assets/images/flags/italy.jpg" alt="user-image" class="me-1" height="12"> <span
+                                class="align-middle">Italian</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru">
+                            <img src="assets/images/flags/russia.jpg" alt="user-image" class="me-1" height="12"> <span
+                                class="align-middle">Russian</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dropdown d-none d-lg-inline-block">
+                    <button type="button" class="btn header-item noti-icon" data-bs-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <i class="icon-sm" data-feather="grid"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0">
+                        <div class="p-3 border-bottom">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <h5 class="m-0 font-size-15"> Web Apps </h5>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="ui-buttons.html#!" class="small fw-semibold text-decoration-underline"> View All</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-simplebar style="max-height: 270px;">
+                            <a class="notification-item text-reset" href="ui-buttons.html#!">
+                                <div class="d-flex border-bottom align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img src="assets/images/brands/slack.png" alt="slack">
+                                    </div>
+                                    <div class="flex-grow-1 ms-4">
+                                        <h6 class="mb-0">Slack</h6>
+                                        <p class="font-size-12 text-muted mb-0">This is your moment. Let’s reinvent work.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a><!-- end dropdown item -->
+                            <a class="notification-item text-reset" href="ui-buttons.html#!">
+                                <div class="d-flex border-bottom align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img src="assets/images/brands/behance.png" alt="behance">
+                                    </div>
+                                    <div class="flex-grow-1 ms-4">
+                                        <h6 class="mb-0">Behance <span class="badge bg-warning badge-pill ml-1">Free</span>
+                                        </h6>
+                                        <p class="font-size-12 text-muted mb-0">Showcase your work.</p>
+                                    </div>
+                                </div>
+                            </a><!-- end dropdown item -->
+                            <a class="notification-item text-reset" href="ui-buttons.html#!">
+                                <div class="d-flex border-bottom align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img src="assets/images/brands/dribbble.png" alt="dribbble">
+                                    </div>
+                                    <div class="flex-grow-1 ms-4">
+                                        <h6 class="mb-0">Dribbble</h6>
+                                        <p class="font-size-12 text-muted mb-0">Dribbble is the world’s leading community
+                                            for creatives to share, grow, and get hired.</p>
+                                    </div>
+                                </div>
+                            </a><!-- end dropdown item -->
+                            <a class="notification-item text-reset" href="ui-buttons.html#!">
+                                <div class="d-flex border-bottom align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img src="assets/images/brands/dropbox.png" alt="dropbox">
+                                    </div>
+                                    <div class="flex-grow-1 ms-4">
+                                        <h6 class="mb-0">Dropbox</h6>
+                                        <p class="font-size-12 text-muted mb-0">Keep life organized and work moving—all in
+                                            one place</p>
+                                    </div>
+                                </div>
+                            </a><!-- end dropdown item -->
+                            <a class="notification-item text-reset" href="ui-buttons.html#!">
+                                <div class="d-flex border-bottom align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img src="assets/images/brands/mail_chimp.png" alt="mail_chimp">
+                                    </div>
+                                    <div class="flex-grow-1 ms-4">
+                                        <h6 class="mb-0">Mail Chimp <span
+                                                class="badge bg-danger badge-pill ml-1">Premium</span></h6>
+                                        <p class="font-size-12 text-muted mb-0">The best value for your digital marketing
+                                            budget</p>
+                                    </div>
+                                </div>
+                            </a><!-- end dropdown item -->
+                            <a class="notification-item text-reset" href="ui-buttons.html#!">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img src="assets/images/brands/github.png" alt="github">
+                                    </div>
+                                    <div class="flex-grow-1 ms-4">
+                                        <h6 class="mb-0">Github</h6>
+                                        <p class="font-size-12 text-muted mb-0">Where the world builds software</p>
+                                    </div>
+                                </div>
+                            </a><!-- end dropdown item -->
+                        </div><!-- end simplebar -->
+                    </div>
+                </div>
+
+                <div class="dropdown d-inline-block">
+                    <button type="button" class="btn header-item noti-icon" id="page-header-notifications-dropdown"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="icon-sm" data-feather="bell"></i>
+                        <span class="noti-dot bg-danger"></span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                        aria-labelledby="page-header-notifications-dropdown">
+                        <div class="p-3">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <h5 class="m-0 font-size-15"> Notifications </h5>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="ui-buttons.html#!" class="small"> Mark all as read</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-simplebar style="max-height: 250px;">
+                            <h6 class="dropdown-header bg-light">New</h6>
+                            <a href="ui-buttons.html" class="text-reset notification-item">
+                                <div class="d-flex border-bottom align-items-start">
+                                    <div class="flex-shrink-0">
+                                        <img src="assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-sm"
+                                            alt="user-pic">
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <h6 class="mb-1">Justin Verduzco</h6>
+                                        <div class="text-muted">
+                                            <p class="mb-1 font-size-13">Your task changed an issue from "In Progress" to
+                                                <span class="badge badge-soft-success">Review</span>
+                                            </p>
+                                            <p class="mb-0 font-size-10 text-uppercase fw-bold"><i
+                                                    class="mdi mdi-clock-outline"></i> 1 hours ago</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="ui-buttons.html" class="text-reset notification-item">
+                                <div class="d-flex border-bottom align-items-start">
+                                    <div class="flex-shrink-0">
+                                        <div class="avatar-sm me-3">
+                                            <span class="avatar-title bg-primary rounded-circle font-size-16">
+                                                <i class="uil-shopping-basket"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <h6 class="mb-1">New order has been placed</h6>
+                                        <div class="text-muted">
+                                            <p class="mb-1 font-size-13">Open the order confirmation or shipment confirmation.</p>
+                                            <p class="mb-0 font-size-10 text-uppercase fw-bold"><i
+                                                    class="mdi mdi-clock-outline"></i> 5 hours ago</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <h6 class="dropdown-header bg-light">Earlier</h6>
+                            <a href="ui-buttons.html" class="text-reset notification-item">
+                                <div class="d-flex border-bottom align-items-start">
+                                    <div class="flex-shrink-0">
+                                        <div class="avatar-sm me-3">
+                                            <span
+                                                class="avatar-title bg-soft-success text-success rounded-circle font-size-16">
+                                                <i class="uil-truck"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <h6 class="mb-1">Your item is shipped</h6>
+                                        <div class="text-muted">
+                                            <p class="mb-1 font-size-13">Here is somthing that you might light like to know.
+                                            </p>
+                                            <p class="mb-0 font-size-10 text-uppercase fw-bold"><i
+                                                    class="mdi mdi-clock-outline"></i> 1 day ago</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="ui-buttons.html" class="text-reset notification-item">
+                                <div class="d-flex border-bottom align-items-start">
+                                    <div class="flex-shrink-0">
+                                        <img src="assets/images/users/avatar-4.jpg" class="me-3 rounded-circle avatar-sm"
+                                            alt="user-pic">
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <h6 class="mb-1">Salena Layfield</h6>
+                                        <div class="text-muted">
+                                            <p class="mb-1 font-size-13">Yay ! Everything worked!</p>
+                                            <p class="mb-0 font-size-10 text-uppercase fw-bold"><i
+                                                    class="mdi mdi-clock-outline"></i> 3 days ago</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="p-2 border-top d-grid">
+                            <a class="btn btn-sm btn-link font-size-14 btn-block text-center" href="javascript:void(0)">
+                                <i class="uil-arrow-circle-right me-1"></i> <span>View More..</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dropdown d-inline-block">
+                    <button type="button" class="btn header-item noti-icon right-bar-toggle" id="right-bar-toggle">
+                        <i class="icon-sm" data-feather="settings"></i>
+                    </button>
+                </div>
+
+                <div class="dropdown d-inline-block">
+                    <button type="button" class="btn header-item user text-start d-flex align-items-center"
+                        id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-10.jpg"
+                            alt="Header Avatar">
+                        <span class="ms-2 d-none d-sm-block user-item-desc">
+                            <span class="user-name">Jansh Wells</span>
+                            <span class="user-sub-title">Administrator</span>
+                        </span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-end pt-0">
+                        <div class="p-3 bg-primary border-bottom">
+                            <h6 class="mb-0 text-white">Jansh Wells</h6>
+                            <p class="mb-0 font-size-11 text-white-50 fw-semibold">Janshwells@probic.com</p>
+                        </div>
+                        <a class="dropdown-item" href="user-profile.html"><i
+                                class="mdi mdi-account-circle text-muted font-size-16 align-middle me-1"></i> <span
+                                class="align-middle">Profile</span></a>
+                        <a class="dropdown-item" href="apps-chat.html"><i
+                                class="mdi mdi-message-text-outline text-muted font-size-16 align-middle me-1"></i> <span
+                                class="align-middle">Messages</span></a>
+                        <a class="dropdown-item" href="index.html"><i
+                                class="mdi mdi-calendar-check-outline text-muted font-size-16 align-middle me-1"></i> <span
+                                class="align-middle">Taskboard</span></a>
+                        <a class="dropdown-item" href="user-profile.html"><i
+                                class="mdi mdi-lifebuoy text-muted font-size-16 align-middle me-1"></i> <span
+                                class="align-middle">Help</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="user-profile.html"><i
+                                class="mdi mdi-wallet text-muted font-size-16 align-middle me-1"></i> <span
+                                class="align-middle">Balance : <b>$6951.02</b></span></a>
+                        <a class="dropdown-item d-flex align-items-center" href="project-file-manager.html"><i
+                                class="mdi mdi-cog-outline text-muted font-size-16 align-middle me-1"></i> <span
+                                class="align-middle">Settings</span><span
+                                class="badge badge-soft-success ms-auto">New</span></a>
+                        <a class="dropdown-item" href="javascript: void(0);"><i
+                                class="mdi mdi-lock text-muted font-size-16 align-middle me-1"></i> <span
+                                class="align-middle">Lock screen</span></a>
+                        <a class="dropdown-item" href="auth-signout.html"><i
+                                class="mdi mdi-logout text-muted font-size-16 align-middle me-1"></i> <span
+                                class="align-middle">Logout</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ========== Left Sidebar Start ========== -->
+    <div class="vertical-menu">
+
+        <!-- LOGO -->
+        <div class="navbar-brand-box">
+            <a href="index.html" class="logo logo-dark">
+                <span class="logo-sm">
+                    <img src="assets/images/logo-sm.png" alt="" height="22">
+                </span>
+                <span class="logo-lg">
+                    <img src="assets/images/logo-dark.png" alt="" height="22">
+                </span>
+            </a>
+
+            <a href="index.html" class="logo logo-light">
+                <span class="logo-sm">
+                    <img src="assets/images/logo-light-sm.png" alt="" height="22">
+                </span>
+                <span class="logo-lg">
+                    <img src="assets/images/logo-light.png" alt="" height="22">
+                </span>
+                <span class="logo-lg-brand">
+                    <img src="assets/images/logo-brand-light.png" alt="" height="22">
+                </span>
+            </a>
+        </div>
+
+        <button type="button" class="btn btn-sm px-3 font-size-16 header-item vertical-menu-btn">
+            <i class="fa fa-fw fa-bars"></i>
+        </button>
+
+        <div data-simplebar class="sidebar-menu-scroll">
+
+            <!--- Sidemenu -->
+            <div id="sidebar-menu">
+                <!-- Left Menu Start -->
+                <ul class="metismenu list-unstyled" id="side-menu">
+
+                    <li class="menu-title" data-key="t-applications">Applications</li>
+
+                    <li>
+                        <a href="index.html">
+                            <i class="icon nav-icon" data-feather="trello"></i>
+                            <span class="menu-item" data-key="t-kanban-board">Kanban Board</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0);" class="has-arrow">
+                            <i class="icon nav-icon" data-feather="users"></i>
+                            <span class="menu-item" data-key="t-team-overview">Team Overview</span>
+                        </a>
+                        <ul class="sub-menu" aria-expanded="false">
+                            <li><a href="team-projects.html" data-key="t-projects">Projects</a></li>
+                            <li><a href="team-employee.html" data-key="t-employee">Employee</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0);" class="has-arrow">
+                            <i class="icon nav-icon" data-feather="briefcase"></i>
+                            <span class="menu-item" data-key="t-contacts">Projects</span>
+                        </a>
+                        <ul class="sub-menu" aria-expanded="false">
+                            <li><a href="project-tasks-list.html" data-key="t-task-list">Task List</a></li>
+                            <li><a href="project-file-manager.html" data-key="t-file-manager">File Manager</a></li>
+                            <li><a href="project-activity.html" data-key="t-activity">Activity</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="apps-chat.html">
+                            <i class="icon nav-icon" data-feather="message-square"></i>
+                            <span class="menu-item" data-key="t-chat">Chat</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="user-profile.html">
+                            <i class="icon nav-icon" data-feather="user"></i>
+                            <span class="menu-item" data-key="t-profile">Profile</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-title" data-key="t-pages">Pages</li>
+
+                    <li>
+                        <a href="javascript: void(0);">
+                            <i class="icon nav-icon" data-feather="user-check"></i>
+                            <span class="menu-item" data-key="t-authentication">Authentication</span>
+                            <span class="badge rounded-pill bg-info">9</span>
+                        </a>
+
+                        <ul class="sub-menu" aria-expanded="true">
+                            <li><a href="auth-singin.html" data-key="t-signin">Signin</a></li>
+                            <li><a href="auth-signup.html" data-key="t-sign-up">Sign Up</a></li>
+                            <li><a href="auth-signout.html" data-key="t-sign-out">Sign Out</a></li>
+                            <li><a href="auth-forgot-password.html" data-key="t-forgot-password">Forgot Password</a></li>
+                            <li><a href="auth-reset-password.html" data-key="t-reset-password">Reset Password</a></li>
+                            <li><a href="auth-email-verification.html" data-key="t-email-verification">Email Verification</a></li>
+                            <li><a href="auth-2step-verification.html" data-key="t-2step-verification">2 Step Verification</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="javascript: void(0);" class="has-arrow">
+                            <i class="icon nav-icon" data-feather="file-text"></i>
+                            <span class="menu-item" data-key="t-utility">Utility</span>
+                        </a>
+                        <ul class="sub-menu" aria-expanded="false">
+                            <li><a href="pages-starter.html" data-key="t-starter-page">Starter Page</a></li>
+                            <li><a href="error-404-1.html" data-key="400-error">400 Error</a></li>
+                            <li><a href="error-404-2.html" data-key="400-error-1">401 Error</a></li>
+                            <li><a href="error-500-1.html" data-key="500-error">500 Error</a></li>
+                            <li><a href="error-500-2.html" data-key="500-error-1">501 Error</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-title" data-key="t-components">Components</li>
+
+                    <li>
+                        <a href="javascript: void(0);" class="has-arrow">
+                            <i class="icon nav-icon" data-feather="package"></i>
+                            <span class="menu-item" data-key="t-ui-elements">UI Elements</span>
+                        </a>
+                        <ul class="sub-menu" aria-expanded="false">
+                            <li><a href="ui-alerts.html" data-key="t-alerts">Alerts</a></li>
+                            <li><a href="ui-buttons.html" data-key="t-buttons">Buttons</a></li>
+                            <li><a href="ui-badges.html" data-key="t-badges">Badges</a></li>
+                            <li><a href="ui-cards.html" data-key="t-cards">Cards</a></li>
+                            <li><a href="ui-carousel.html" data-key="t-carousel">Carousel</a></li>
+                            <li><a href="ui-dropdowns.html" data-key="t-dropdowns">Dropdowns</a></li>
+                            <li><a href="ui-grid.html" data-key="t-grid">Grid</a></li>
+                            <li><a href="ui-images.html" data-key="t-images">Images</a></li>
+                            <li><a href="ui-modals.html" data-key="t-modals">Modals</a></li>
+                            <li><a href="ui-offcanvas.html" data-key="t-offcanvas">Offcanvas</a></li>
+                            <li><a href="ui-placeholders.html" data-key="t-placeholders">Placeholders</a></li>
+                            <li><a href="ui-progressbars.html" data-key="t-progress-bars">Progress Bars</a></li>
+                            <li><a href="ui-pagination.html" data-key="t-pagination">Pagination</a></li>
+                            <li><a href="ui-tabs-accordions.html" data-key="t-tabs-accordions">Tabs & Accordions</a></li>
+                            <li><a href="ui-tooltips-popovers.html" data-key="t-tooltips-popovers">Tooltips & Popovers</a></li>
+                            <li><a href="ui-typography.html" data-key="t-typography">Typography</a></li>
+                            <li><a href="ui-spinner.html" data-key="t-spinner">Spinner</a></li>
+                            <li><a href="ui-video.html" data-key="t-video">Video</a></li>
+                            <li><a href="ui-colors.html" data-key="t-colors">Colors</a></li>
+                            <li><a href="ui-utilities.html" data-key="t-utilities">Utilities</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="form-elements.html">
+                            <i class="icon nav-icon" data-feather="edit-3"></i>
+                            <span class="menu-item" data-key="t-forms">Forms</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="tables-basic.html">
+                            <i class="icon nav-icon" data-feather="database"></i>
+                            <span class="menu-item" data-key="t-tables">Tables</span>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="charts-apex.html">
+                            <i class="icon nav-icon" data-feather="bar-chart-2"></i>
+                            <span class="menu-item" data-key="t-apexcharts">Apex Charts</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="icons-feathericons.html">
+                            <i class="icon nav-icon" data-feather="archive"></i>
+                            <span class="menu-item" data-key="t-feather-icons">Feather Icons</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript: void(0);" class="has-arrow">
+                            <i class="icon nav-icon" data-feather="share-2"></i>
+                            <span class="menu-item" data-key="t-multi-level">Multi Level</span>
+                        </a>
+                        <ul class="sub-menu" aria-expanded="true">
+                            <li><a href="javascript: void(0);" data-key="t-level-1.1">Level 1.1</a></li>
+                            <li><a href="javascript: void(0);" class="has-arrow" data-key="t-level-1.2">Level 1.2</a>
+                                <ul class="sub-menu" aria-expanded="true">
+                                    <li><a href="javascript: void(0);" data-key="t-level-2.1">Level 2.1</a></li>
+                                    <li><a href="javascript: void(0);" data-key="t-level-2.2">Level 2.2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- Sidebar -->
+        </div>
+    </div>
+    <!-- Left Sidebar End -->
+
+    
+
+    <!-- ============================================================== -->
+
+    <!-- Start right Content here -->
+    <!-- ============================================================== -->
+    <div class="main-content">
+
+        <div class="page-content">
+            <div class="container-fluid">
+
+                <!-- start page title -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page-title-box d-flex align-items-center justify-content-between">
+                            <h4 class="mb-0">Buttons</h4>
+
+                            <div class="page-title-right">
+                                <ol class="breadcrumb m-0">
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">UI Elements</a></li>
+                                    <li class="breadcrumb-item active">Buttons</li>
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- end page title -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Default Button</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#defaultButton">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end cardheader -->
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-primary">Primary</button>
+                                    <button type="button" class="btn btn-secondary">Secondary</button>
+                                    <button type="button" class="btn btn-success">Success</button>
+                                    <button type="button" class="btn btn-info">Info</button>
+                                    <button type="button" class="btn btn-warning">Warning</button>
+                                    <button type="button" class="btn btn-danger">Danger</button>
+                                    <button type="button" class="btn btn-purple">Purple</button>
+                                    <button type="button" class="btn btn-dark">Dark</button>
+                                    <button type="button" class="btn btn-link">Link</button>
+                                    <button type="button" class="btn btn-light">Light</button>
+                                </div>
+
+                                <div class="collapse" id="defaultButton">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardButtondefault"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardButtondefault">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot;&gt;Secondary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot;&gt;Success&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-info&quot;&gt;Info&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-warning&quot;&gt;Warning&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Danger&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-purple&quot;&gt;Purple&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-dark&quot;&gt;Dark&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-link&quot;&gt;Link&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;Light&lt;/button&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Outline Buttons</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#outlineButton">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-outline-primary">Primary</button>
+                                    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                                    <button type="button" class="btn btn-outline-success">Success</button>
+                                    <button type="button" class="btn btn-outline-info">Info</button>
+                                    <button type="button" class="btn btn-outline-warning">Warning</button>
+                                    <button type="button" class="btn btn-outline-danger">Danger</button>
+                                    <button type="button" class="btn btn-outline-purple">Purple</button>
+                                    <button type="button" class="btn btn-outline-dark">Dark</button>
+                                    <button type="button" class="btn btn-outline-light">Light</button>
+                                </div>
+
+                                <div class="collapse" id="outlineButton">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardButtonoutline"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardButtonoutline">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-primary&quot;&gt;Primary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-secondary&quot;&gt;Secondary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-success&quot;&gt;Success&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-info&quot;&gt;Info&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-warning&quot;&gt;Warning&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-danger&quot;&gt;Danger&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-purple&quot;&gt;Purple&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-dark&quot;&gt;Dark&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-light&quot;&gt;Light&lt;/button&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Soft Buttons</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#softButton">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-soft-primary">Primary</button>
+                                    <button type="button" class="btn btn-soft-secondary">Secondary</button>
+                                    <button type="button" class="btn btn-soft-success">Success</button>
+                                    <button type="button" class="btn btn-soft-info">Info</button>
+                                    <button type="button" class="btn btn-soft-warning">Warning</button>
+                                    <button type="button" class="btn btn-soft-danger">Danger</button>
+                                    <button type="button" class="btn btn-soft-purple">Purple</button>
+                                    <button type="button" class="btn btn-soft-dark">Dark</button>
+                                    <button type="button" class="btn btn-soft-light">Light</button>
+                                </div>
+
+                                <div class="collapse" id="softButton">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardbuttonSoft"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardbuttonSoft">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-primary&quot;&gt;Primary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-secondary&quot;&gt;Secondary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-success&quot;&gt;Success&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-info&quot;&gt;Info&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-warning&quot;&gt;Warning&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-danger&quot;&gt;Danger&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-purple&quot;&gt;Purple&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-dark&quot;&gt;Dark&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-light&quot;&gt;Light&lt;/button&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Default Rounded Buttons</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#defaultRounded">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-primary btn-rounded">Primary</button>
+                                    <button type="button" class="btn btn-secondary btn-rounded">Secondary</button>
+                                    <button type="button" class="btn btn-success btn-rounded">Success</button>
+                                    <button type="button" class="btn btn-info btn-rounded">Info</button>
+                                    <button type="button" class="btn btn-warning btn-rounded">Warning</button>
+                                    <button type="button" class="btn btn-danger btn-rounded">Danger</button>
+                                    <button type="button" class="btn btn-purple btn-rounded">Purple</button>
+                                    <button type="button" class="btn btn-dark btn-rounded">Dark</button>
+                                    <button type="button" class="btn btn-link btn-rounded">Link</button>
+                                    <button type="button" class="btn btn-light btn-rounded">Light</button>
+                                </div>
+
+                                <div class="collapse" id="defaultRounded">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardDefaultbuttons"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardDefaultbuttons">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-rounded&quot;&gt;Primary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary btn-rounded&quot;&gt;Secondary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-success btn-rounded&quot;&gt;Success&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-rounded&quot;&gt;Info&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-warning btn-rounded&quot;&gt;Warning&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-danger btn-rounded&quot;&gt;Danger&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-purple btn-rounded&quot;&gt;Purple&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-dark btn-rounded&quot;&gt;Dark&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-link btn-rounded&quot;&gt;Link&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-light btn-rounded&quot;&gt;Light&lt;/button&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Outline Rounded Buttons</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#outlineRounded">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-outline-primary btn-rounded">Primary</button>
+                                    <button type="button" class="btn btn-outline-secondary btn-rounded">Secondary</button>
+                                    <button type="button" class="btn btn-outline-success btn-rounded">Success</button>
+                                    <button type="button" class="btn btn-outline-info btn-rounded">Info</button>
+                                    <button type="button" class="btn btn-outline-warning btn-rounded">Warning</button>
+                                    <button type="button" class="btn btn-outline-danger btn-rounded">Danger</button>
+                                    <button type="button" class="btn btn-outline-purple btn-rounded">Purple</button>
+                                    <button type="button" class="btn btn-outline-dark btn-rounded">Dark</button>
+                                    <button type="button" class="btn btn-outline-light btn-rounded">Light</button>
+                                </div>
+
+                                <div class="collapse" id="outlineRounded">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardRoundedbuttons"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardRoundedbuttons">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-primary btn-rounded&quot;&gt;Primary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-secondary btn-rounded&quot;&gt;Secondary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-success btn-rounded&quot;&gt;Success&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-info btn-rounded&quot;&gt;Info&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-warning btn-rounded&quot;&gt;Warning&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-danger btn-rounded&quot;&gt;Danger&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-purple btn-rounded&quot;&gt;Purple&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-dark btn-rounded&quot;&gt;Dark&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-light btn-rounded&quot;&gt;Light&lt;/button&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Soft Rounded Buttons</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#softRounded">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-soft-primary btn-rounded">Primary</button>
+                                    <button type="button" class="btn btn-soft-secondary btn-rounded">Secondary</button>
+                                    <button type="button" class="btn btn-soft-success btn-rounded">Success</button>
+                                    <button type="button" class="btn btn-soft-info btn-rounded">Info</button>
+                                    <button type="button" class="btn btn-soft-warning btn-rounded">Warning</button>
+                                    <button type="button" class="btn btn-soft-danger btn-rounded">Danger</button>
+                                    <button type="button" class="btn btn-soft-purple btn-rounded">Purple</button>
+                                    <button type="button" class="btn btn-soft-dark btn-rounded">Dark</button>
+                                </div>
+
+                                <div class="collapse" id="softRounded">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardSoftrounded"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardSoftrounded">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-primary btn-rounded&quot;&gt;Primary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-secondary btn-rounded&quot;&gt;Secondary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-success btn-rounded&quot;&gt;Success&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-info btn-rounded&quot;&gt;Info&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-warning btn-rounded&quot;&gt;Warning&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-danger btn-rounded&quot;&gt;Danger&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-purple btn-rounded&quot;&gt;Purple&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-dark btn-rounded&quot;&gt;Dark&lt;/button&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Disabled Buttons</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#disabledButtons">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <button type="button" class="btn btn-primary align-middle" disabled>Primary</button>
+                                    <button type="button" class="btn btn-secondary align-middle" disabled>Secondary</button>
+                                    <button type="button" class="btn btn-success align-middle" disabled>Success</button>
+                                    <button type="button" class="btn btn-info align-middle" disabled>Info</button>
+                                    <button type="button" class="btn btn-warning align-middle" disabled>Warning</button>
+                                    <button type="button" class="btn btn-danger align-middle" disabled>Danger</button>
+                                    <button type="button" class="btn btn-dark align-middle" disabled>Dark</button>
+                                </div>
+
+                                <div class="collapse" id="disabledButtons">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardDisabledbuttons"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardDisabledbuttons">&lt;div class=&quot;d-flex gap-2 flex-wrap&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary align-middle&quot; disabled&gt;Primary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary align-middle&quot; disabled&gt;Secondary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-success align-middle&quot; disabled&gt;Success&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-info align-middle&quot; disabled&gt;Info&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-warning align-middle&quot; disabled&gt;Warning&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-danger align-middle&quot; disabled&gt;Danger&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-dark align-middle&quot; disabled&gt;Dark&lt;/button&gt; 
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Default Buttons with Icon</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#defaultIcon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-primary"><i class="uil uil-user me-2"></i> Primary</button>
+                                    <button type="button" class="btn btn-success"><i class="uil uil-check me-2"></i> Success</button>
+                                    <button type="button" class="btn btn-warning"><i class="uil uil-exclamation-triangle me-2"></i>
+                                        Warning</button>
+                                    <button type="button" class="btn btn-info"><i class="uil uil-info-circle me-2"></i> Info</button>
+                                    <button type="button" class="btn btn-danger"><i class="uil uil-exclamation-octagon me-2"></i>
+                                        Danger</button>
+                                    <button type="button" class="btn btn-purple"><i class="uil uil-bag me-2"></i> Purple</button>
+                                </div>
+
+                                <div class="collapse" id="defaultIcon">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardButtonwithIcon"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardButtonwithIcon">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;&lt;i class=&quot;uil uil-user me-2&quot;&gt;&lt;/i&gt; Primary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot;&gt;&lt;i class=&quot;uil uil-check me-2&quot;&gt;&lt;/i&gt; Success&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-warning&quot;&gt;&lt;i class=&quot;uil uil-exclamation-triangle me-2&quot;&gt;&lt;/i&gt; Warning&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-info&quot;&gt;&lt;i class=&quot;uil uil-info-circle me-2&quot;&gt;&lt;/i&gt; Info&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;&lt;i class=&quot;uil uil-exclamation-octagon me-2&quot;&gt;&lt;/i&gt; Danger&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-purple&quot;&gt;&lt;i class=&quot;uil uil-bag me-2&quot;&gt;&lt;/i&gt; Purple&lt;/button&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Outline Buttons with Icon</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#outlineIcon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end header -->
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-outline-primary"><i class="uil uil-user me-2"></i> Primary</button>
+                                    <button type="button" class="btn btn-outline-success"><i class="uil uil-check me-2"></i> Success</button>
+                                    <button type="button" class="btn btn-outline-warning"><i class="uil uil-exclamation-triangle me-2"></i>
+                                        Warning</button>
+                                    <button type="button" class="btn btn-outline-info"><i class="uil uil-info-circle me-2"></i> Info</button>
+                                    <button type="button" class="btn btn-outline-danger"><i class="uil uil-exclamation-octagon me-2"></i>
+                                        Danger</button>
+                                    <button type="button" class="btn btn-outline-purple"><i class="uil uil-bag me-2"></i> Purple</button>
+                                </div>
+
+                                <div class="collapse" id="outlineIcon">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardOutlineIcon"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardOutlineIcon">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-primary&quot;&gt;&lt;i class=&quot;uil uil-user me-2&quot;&gt;&lt;/i&gt; Primary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-success&quot;&gt;&lt;i class=&quot;uil uil-check me-2&quot;&gt;&lt;/i&gt; Success&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-warning&quot;&gt;&lt;i class=&quot;uil uil-exclamation-triangle me-2&quot;&gt;&lt;/i&gt; Warning&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-info&quot;&gt;&lt;i class=&quot;uil uil-info-circle me-2&quot;&gt;&lt;/i&gt; Info&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-danger&quot;&gt;&lt;i class=&quot;uil uil-exclamation-octagon me-2&quot;&gt;&lt;/i&gt; Danger&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-purple&quot;&gt;&lt;i class=&quot;uil uil-bag me-2&quot;&gt;&lt;/i&gt; Purple&lt;/button&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Soft Buttons with Icon</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#softIcon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-soft-primary"><i class="uil uil-user me-2"></i>Primary</button>
+                                    <button type="button" class="btn btn-soft-success"><i class="uil uil-check me-2"></i>Success</button>
+                                    <button type="button" class="btn btn-soft-warning"><i class="uil uil-exclamation-triangle me-2"></i>
+                                        Warning</button>
+                                    <button type="button" class="btn btn-soft-info"><i class="uil uil-info-circle me-2"></i> Info</button>
+                                    <button type="button" class="btn btn-soft-danger"><i class="uil uil-exclamation-octagon me-2"></i>
+                                        Danger</button>
+                                    <button type="button" class="btn btn-soft-purple"><i class="uil uil-bag me-2"></i> Purple</button>
+                                </div>
+
+                                <div class="collapse" id="softIcon">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardSoftbuttons"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardSoftbuttons">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-primary&quot;&gt;&lt;i class=&quot;uil uil-user me-2&quot;&gt;&lt;/i&gt;Primary&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-success&quot;&gt;&lt;i class=&quot;uil uil-check me-2&quot;&gt;&lt;/i&gt;Success&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-warning&quot;&gt;&lt;i class=&quot;uil uil-exclamation-triangle me-2&quot;&gt;&lt;/i&gt; Warning&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-info&quot;&gt;&lt;i class=&quot;uil uil-info-circle me-2&quot;&gt;&lt;/i&gt; Info&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-danger&quot;&gt;&lt;i class=&quot;uil uil-exclamation-octagon me-2&quot;&gt;&lt;/i&gt; Danger&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-purple&quot;&gt;&lt;i class=&quot;uil uil-bag me-2&quot;&gt;&lt;/i&gt; Purple&lt;/button&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Default Icon Buttons</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#Defaulticon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end card-header -->
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-primary"><i class="uil uil-user"></i></button>
+                                    <button type="button" class="btn btn-success"><i class="uil uil-check-circle"></i></button>
+                                    <button type="button" class="btn btn-warning"><i class="uil uil-exclamation-triangle"></i></button>
+                                    <button type="button" class="btn btn-info"><i class="uil uil-exclamation-octagon"></i></button>
+                                    <button type="button" class="btn btn-purple"><i class="uil uil-bag-alt"></i></button>
+                                    <button type="button" class="btn btn-danger"><i class="uil uil-ban"></i></button>
+                                    <button type="button" class="btn btn-secondary"><i class="uil uil-location-arrow-alt"></i></button>
+                                    <button type="button" class="btn btn-light"><i class="uil uil-moon"></i></button>
+                                </div>
+
+                                <div class="collapse" id="Defaulticon">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardDefaulticon"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardDefaulticon">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;&lt;i class=&quot;uil uil-user&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot;&gt;&lt;i class=&quot;uil uil-check-circle&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-warning&quot;&gt;&lt;i class=&quot;uil uil-exclamation-triangle&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-info&quot;&gt;&lt;i class=&quot;uil uil-exclamation-octagon&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-purple&quot;&gt;&lt;i class=&quot;uil uil-bag-alt&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;&lt;i class=&quot;uil uil-ban&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot;&gt;&lt;i class=&quot;uil uil-location-arrow-alt&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;&lt;i class=&quot;uil uil-moon&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Outline Icon Buttons</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#Outlineicon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end card-header -->
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-outline-primary"><i class="uil uil-user"></i></button>
+                                    <button type="button" class="btn btn-outline-success"><i class="uil uil-check-circle"></i></button>
+                                    <button type="button" class="btn btn-outline-warning"><i class="uil uil-exclamation-triangle"></i></button>
+                                    <button type="button" class="btn btn-outline-info"><i class="uil uil-exclamation-octagon"></i></button>
+                                    <button type="button" class="btn btn-outline-purple"><i class="uil uil-bag-alt"></i></button>
+                                    <button type="button" class="btn btn-outline-danger"><i class="uil uil-ban"></i></button>
+                                    <button type="button" class="btn btn-outline-secondary"><i class="uil uil-location-arrow-alt"></i></button>
+                                    <button type="button" class="btn btn-outline-light"><i class="uil uil-moon"></i></button>
+                                </div>
+
+                                <div class="collapse" id="Outlineicon">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardOutlineiconButtons"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardOutlineiconButtons">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-primary&quot;&gt;&lt;i class=&quot;uil uil-user&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-success&quot;&gt;&lt;i class=&quot;uil uil-check-circle&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-warning&quot;&gt;&lt;i class=&quot;uil uil-exclamation-triangle&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-info&quot;&gt;&lt;i class=&quot;uil uil-exclamation-octagon&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-purple&quot;&gt;&lt;i class=&quot;uil uil-bag-alt&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-danger&quot;&gt;&lt;i class=&quot;uil uil-ban&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-secondary&quot;&gt;&lt;i class=&quot;uil uil-location-arrow-alt&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-light&quot;&gt;&lt;i class=&quot;uil uil-moon&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Soft Icon Buttons</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#Softicon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-soft-primary"><i class="uil uil-user"></i></button>
+                                    <button type="button" class="btn btn-soft-success"><i class="uil uil-check-circle"></i></button>
+                                    <button type="button" class="btn btn-soft-warning"><i class="uil uil-exclamation-triangle"></i></button>
+                                    <button type="button" class="btn btn-soft-info"><i class="uil uil-exclamation-octagon"></i></button>
+                                    <button type="button" class="btn btn-soft-purple"><i class="uil uil-bag-alt"></i></button>
+                                    <button type="button" class="btn btn-soft-danger"><i class="uil uil-ban"></i></button>
+                                    <button type="button" class="btn btn-soft-secondary"><i class="uil uil-location-arrow-alt"></i></button>
+                                    <button type="button" class="btn btn-soft-light"><i class="uil uil-moon"></i></button>
+                                </div>
+
+                                <div class="collapse" id="Softicon">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardSofticon"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardSofticon">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-primary&quot;&gt;&lt;i class=&quot;uil uil-user&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-success&quot;&gt;&lt;i class=&quot;uil uil-check-circle&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-warning&quot;&gt;&lt;i class=&quot;uil uil-exclamation-triangle&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-info&quot;&gt;&lt;i class=&quot;uil uil-exclamation-octagon&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-purple&quot;&gt;&lt;i class=&quot;uil uil-bag-alt&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-danger&quot;&gt;&lt;i class=&quot;uil uil-ban&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-secondary&quot;&gt;&lt;i class=&quot;uil uil-location-arrow-alt&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-soft-light&quot;&gt;&lt;i class=&quot;uil uil-moon&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Button Tags</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#tagsButton">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end card-header -->
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a class="btn btn-primary" href="ui-buttons.html#" role="button">Link</a>
+                                    <button class="btn btn-success" type="submit">Button</button>
+                                    <input class="btn btn-info" type="button" value="Input">
+                                    <input class="btn btn-danger" type="submit" value="Submit">
+                                    <input class="btn btn-warning" type="reset" value="Reset">
+                                </div>
+
+                                <div class="collapse" id="tagsButton">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardButtonstag"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardButtonstag">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;a class=&quot;btn btn-primary&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;Link&lt;/a&gt;
+    &lt;button class=&quot;btn btn-success&quot; type=&quot;submit&quot;&gt;Button&lt;/button&gt;
+    &lt;input class=&quot;btn btn-info&quot; type=&quot;button&quot; value=&quot;Input&quot;&gt;
+    &lt;input class=&quot;btn btn-danger&quot; type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+    &lt;input class=&quot;btn btn-warning&quot; type=&quot;reset&quot; value=&quot;Reset&quot;&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Button Toolbar</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#toolbarButton">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group me-2" role="group" aria-label="First group">
+                                            <button type="button" class="btn btn-light">1</button>
+                                            <button type="button" class="btn btn-light">2</button>
+                                            <button type="button" class="btn btn-light">3</button>
+                                            <button type="button" class="btn btn-light">4</button>
+                                        </div>
+                                        <div class="btn-group me-2" role="group" aria-label="Second group">
+                                            <button type="button" class="btn btn-light">5</button>
+                                            <button type="button" class="btn btn-light">6</button>
+                                            <button type="button" class="btn btn-light">7</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-light">8</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="collapse" id="toolbarButton">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardToolbarbuttons"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardToolbarbuttons">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;       
+    &lt;div class=&quot;btn-toolbar&quot; role=&quot;toolbar&quot; aria-label=&quot;Toolbar with button groups&quot;&gt;
+        &lt;div class=&quot;btn-group me-2&quot; role=&quot;group&quot; aria-label=&quot;First group&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;1&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;2&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;3&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;4&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;btn-group me-2&quot; role=&quot;group&quot; aria-label=&quot;Second group&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;5&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;6&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;7&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;Third group&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;8&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Buttons Width</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#buttonWidth">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end cardheader -->
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-primary w-xs">Xs</button>
+                                    <button type="button" class="btn btn-danger w-sm">Small</button>
+                                    <button type="button" class="btn btn-warning w-md">Medium</button>
+                                    <button type="button" class="btn btn-success w-lg">Large</button>
+                                </div>
+
+                                <div class="collapse" id="buttonWidth">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardButtonswidth"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardButtonswidth">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary w-xs&quot;&gt;Xs&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-danger w-sm&quot;&gt;Small&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-warning w-md&quot;&gt;Medium&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-success w-lg&quot;&gt;Large&lt;/button&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Buttons Sizes</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#buttonSize">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end card-header -->
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2 align-items-center">
+                                    <button type="button" class="btn btn-primary btn-lg">Large
+                                        button</button>
+                                    <button type="button" class="btn btn-light btn-lg">Large
+                                        button</button>
+                                    <button type="button" class="btn btn-primary btn-sm">Small
+                                        button</button>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-light btn-sm">Small
+                                            button</button>
+                                        <button type="button" class="btn btn-sm btn-light dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <span class="visually-hidden">Toggle Dropdown</span><i class="mdi mdi-chevron-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="ui-buttons.html#">Action</a>
+                                            <a class="dropdown-item" href="ui-buttons.html#">Another action</a>
+                                            <a class="dropdown-item" href="ui-buttons.html#">Something else here</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="ui-buttons.html#">Separated link</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="collapse" id="buttonSize">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardButtonsSize"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardButtonsSize">&lt;div class=&quot;d-flex flex-wrap gap-2 align-items-center&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Large button&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-light btn-lg&quot;&gt;Large button&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-sm&quot;&gt;Small button&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-light btn-sm&quot;&gt;Small button&lt;/button&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Checkbox and Radio Buttons</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#checkButtons">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end card-header -->
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                                        <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off" checked>
+                                        <label class="btn btn-primary" for="btncheck1">Checkbox
+                                            1</label>
+
+                                        <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                                        <label class="btn btn-primary" for="btncheck2">Checkbox
+                                            2</label>
+
+                                        <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                                        <label class="btn btn-primary" for="btncheck3">Checkbox
+                                            3</label>
+                                    </div>
+
+                                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                                        <label class="btn btn-outline-secondary" for="btnradio1">Radio
+                                            1</label>
+
+                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                                        <label class="btn btn-outline-secondary" for="btnradio2">Radio
+                                            2</label>
+
+                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                                        <label class="btn btn-outline-secondary" for="btnradio3">Radio
+                                            3</label>
+                                    </div>
+                                </div>
+
+                                <div class="collapse" id="checkButtons">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardCheckedButtons"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardCheckedButtons">&lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;Basic checkbox toggle button group&quot;&gt;
+        &lt;input type=&quot;checkbox&quot; class=&quot;btn-check&quot; id=&quot;btncheck1&quot; autocomplete=&quot;off&quot; checked&gt;
+        &lt;label class=&quot;btn btn-primary&quot; for=&quot;btncheck1&quot;&gt;Checkbox 1&lt;/label&gt;
+        
+        &lt;input type=&quot;checkbox&quot; class=&quot;btn-check&quot; id=&quot;btncheck2&quot; autocomplete=&quot;off&quot;&gt;
+        &lt;label class=&quot;btn btn-primary&quot; for=&quot;btncheck2&quot;&gt;Checkbox 2&lt;/label&gt;
+        
+        &lt;input type=&quot;checkbox&quot; class=&quot;btn-check&quot; id=&quot;btncheck3&quot; autocomplete=&quot;off&quot;&gt;
+        &lt;label class=&quot;btn btn-primary&quot; for=&quot;btncheck3&quot;&gt;Checkbox 3&lt;/label&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;Basic radio toggle button group&quot;&gt;
+        &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;btnradio&quot; id=&quot;btnradio1&quot; autocomplete=&quot;off&quot; checked&gt;
+        &lt;label class=&quot;btn btn-outline-secondary&quot; for=&quot;btnradio1&quot;&gt;Radio 1&lt;/label&gt;
+        
+        &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;btnradio&quot; id=&quot;btnradio2&quot; autocomplete=&quot;off&quot;&gt;
+        &lt;label class=&quot;btn btn-outline-secondary&quot; for=&quot;btnradio2&quot;&gt;Radio 2&lt;/label&gt;
+        
+        &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;btnradio&quot; id=&quot;btnradio3&quot; autocomplete=&quot;off&quot;&gt;
+        &lt;label class=&quot;btn btn-outline-secondary&quot; for=&quot;btnradio3&quot;&gt;Radio 3&lt;/label&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Block Buttons</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#blockButtons">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end card header -->
+                            <div class="card-body">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-primary btn-lg btn-block mb-1">Block level
+                                        button</button>
+                                    <button type="button" class="btn btn-light btn-sm btn-block">Block
+                                        level button</button>
+                                </div>
+
+                                <div class="collapse" id="blockButtons">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardBlockbuttons"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardBlockbuttons">&lt;div class=&quot;d-grid gap-2&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg btn-block mb-1&quot;&gt;Block level button&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-light btn-sm btn-block&quot;&gt;Block level button&lt;/button&gt;
+&lt;/div&gt; </code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center mb-0">
+                                    <div class="flex-grow-1">
+                                        <h4 class="card-title">Button Group</h4>
+                                    </div>
+                                    <div class="flex-shrink-0">
+                                        <div class="form-check form-switch form-switch-md">
+                                            <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#groupButtons">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end card header -->
+                            <div class="card-body">
+                                <div>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                                            <button type="button" class="btn btn-primary">Left</button>
+                                            <button type="button" class="btn btn-primary">Middle</button>
+                                            <button type="button" class="btn btn-primary">Right</button>
+                                        </div>
+
+                                        <br />
+
+                                        <div class="btn-group mt-2" role="group" aria-label="Basic example">
+                                            <button type="button" class="btn btn-light">Left</button>
+                                            <button type="button" class="btn btn-light">Middle</button>
+                                            <button type="button" class="btn btn-light">Right</button>
+                                        </div>
+
+                                        <br />
+
+                                        <div class="btn-group btn-group-sm mt-2" role="group" aria-label="Basic example">
+                                            <button type="button" class="btn btn-danger">Left</button>
+                                            <button type="button" class="btn btn-danger">Middle</button>
+                                            <button type="button" class="btn btn-danger">Right</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="collapse" id="groupButtons">
+                                    <div>
+                                        <div class="btn btn-clipboard" data-clipboard-action="copy" data-clipboard-target="#clipboardGroupbuttons"></div>
+                                        <pre class="language-markup rounded position-relative"
+                                                    style="max-height: 270px;">
+<code id="clipboardGroupbuttons">&lt;div&gt;
+    &lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+        &lt;div class=&quot;btn-group btn-group-lg&quot; role=&quot;group&quot; aria-label=&quot;Basic example&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Left&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Middle&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Right&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;br/&gt;
+        &lt;div class=&quot;btn-group mt-2&quot; role=&quot;group&quot; aria-label=&quot;Basic example&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;Left&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;Middle&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;Right&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;br/&gt;
+        &lt;div class=&quot;btn-group btn-group-sm mt-2&quot; role=&quot;group&quot; aria-label=&quot;Basic example&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Left&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Middle&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Right&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code>
+</pre>
+                                    </div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+            </div> <!-- container-fluid -->
+        </div>
+        <!-- End Page-content -->
+
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <script>document.write(new Date().getFullYear())</script> © Probic.
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="text-sm-end d-none d-sm-block">
+                            Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="https://pichforest.com/" target="_blank" class="text-reset">Pichforest</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- end main content-->
+
+</div>
+<!-- END layout-wrapper -->
+
+<!-- Right Sidebar -->
+<div class="right-bar">
+    <div data-simplebar class="h-100">
+        <div class="rightbar-title d-flex align-items-center bg-dark p-3">
+
+            <h5 class="m-0 me-2 text-white">Theme Customizer</h5>
+
+            <a href="javascript:void(0);" class="right-bar-toggle ms-auto" id="right-bar-toggle">
+                <i class="mdi mdi-close noti-icon"></i>
+            </a>
+        </div>
+
+        <!-- Settings -->
+        <hr class="m-0" />
+
+        <div class="p-4">
+            
+            <h6 class="mt-4 mb-3">Layout Mode</h6>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="layout-mode"
+                    id="layout-mode-light" value="light">
+                <label class="form-check-label" for="layout-mode-light">Light</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="layout-mode"
+                    id="layout-mode-dark" value="dark">
+                <label class="form-check-label" for="layout-mode-dark">Dark</label>
+            </div>
+
+            <h6 class="mt-4 mb-3">Layout Width</h6>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="layout-width"
+                    id="layout-width-fluid" value="fluid" onchange="document.body.setAttribute('data-layout-size', 'fluid')">
+                <label class="form-check-label" for="layout-width-fluid">Fluid</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="layout-width"
+                    id="layout-width-boxed" value="boxed" onchange="document.body.setAttribute('data-layout-size', 'boxed')">
+                <label class="form-check-label" for="layout-width-boxed">Boxed</label>
+            </div>
+
+            <h6 class="mt-4 mb-3">Layout Position</h6>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="layout-position"
+                    id="layout-position-fixed" value="fixed" onchange="document.body.setAttribute('data-layout-scrollable', 'false')">
+                <label class="form-check-label" for="layout-position-fixed">Fixed</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="layout-position"
+                    id="layout-position-scrollable" value="scrollable" onchange="document.body.setAttribute('data-layout-scrollable', 'true')">
+                <label class="form-check-label" for="layout-position-scrollable">Scrollable</label>
+            </div>
+
+            <h6 class="mt-4 mb-3">Topbar Color</h6>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="topbar-color"
+                    id="topbar-color-light" value="light" onchange="document.body.setAttribute('data-topbar', 'light')">
+                <label class="form-check-label" for="topbar-color-light">Light</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="topbar-color"
+                    id="topbar-color-dark" value="dark" onchange="document.body.setAttribute('data-topbar', 'dark')">
+                <label class="form-check-label" for="topbar-color-dark">Dark</label>
+            </div>
+
+            <div id="sidebar-setting">
+            <h6 class="mt-4 mb-3 sidebar-setting">Sidebar Size</h6>
+
+            <div class="form-check sidebar-setting">
+                <input class="form-check-input" type="radio" name="sidebar-size"
+                    id="sidebar-size-default" value="default" onchange="document.body.setAttribute('data-sidebar-size', 'lg')">
+                <label class="form-check-label" for="sidebar-size-default">Default</label>
+            </div>
+            <div class="form-check sidebar-setting">
+                <input class="form-check-input" type="radio" name="sidebar-size"
+                    id="sidebar-size-compact" value="compact" onchange="document.body.setAttribute('data-sidebar-size', 'md')">
+                <label class="form-check-label" for="sidebar-size-compact">Compact</label>
+            </div>
+            <div class="form-check sidebar-setting">
+                <input class="form-check-input" type="radio" name="sidebar-size"
+                    id="sidebar-size-small" value="small" onchange="document.body.setAttribute('data-sidebar-size', 'sm')">
+                <label class="form-check-label" for="sidebar-size-small">Small (Icon View)</label>
+            </div>
+
+            <h6 class="mt-4 mb-3 sidebar-setting">Sidebar Color</h6>
+
+            <div class="form-check sidebar-setting">
+                <input class="form-check-input" type="radio" name="sidebar-color"
+                    id="sidebar-color-light" value="light" onchange="document.body.setAttribute('data-sidebar', 'light')">
+                <label class="form-check-label" for="sidebar-color-light">Light</label>
+            </div>
+            <div class="form-check sidebar-setting">
+                <input class="form-check-input" type="radio" name="sidebar-color"
+                    id="sidebar-color-dark" value="dark" onchange="document.body.setAttribute('data-sidebar', 'dark')">
+                <label class="form-check-label" for="sidebar-color-dark">Dark</label>
+            </div>
+            <div class="form-check sidebar-setting">
+                <input class="form-check-input" type="radio" name="sidebar-color"
+                    id="sidebar-color-brand" value="brand" onchange="document.body.setAttribute('data-sidebar', 'brand')">
+                <label class="form-check-label" for="sidebar-color-brand">Brand</label>
+            </div>
+        </div>
+
+            <h6 class="mt-4 mb-3">Direction</h6>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="layout-direction"
+                    id="layout-direction-ltr" value="ltr">
+                <label class="form-check-label" for="layout-direction-ltr">LTR</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="layout-direction"
+                    id="layout-direction-rtl" value="rtl">
+                <label class="form-check-label" for="layout-direction-rtl">RTL</label>
+            </div>
+
+        </div>
+
+    </div> <!-- end slimscroll-menu-->
+</div>
+<!-- /Right-bar -->
+
+<!-- Right bar overlay-->
+<div class="rightbar-overlay"></div>
+
+<!-- JAVASCRIPT -->
+
+
+<!-- Bootstrap JS -->
+<script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Metismenu Js -->
+<script src="assets/libs/metismenujs/metismenujs.min.js"></script>
+
+<!-- Simplebar Js -->
+<script src="assets/libs/simplebar/simplebar.min.js"></script>
+
+<!-- Feather Js -->
+<script src="assets/libs/feather-icons/feather.min.js"></script>
+
+
+<!-- prismjs plugin -->
+<script src="assets/libs/prismjs/prism.js"></script>
+
+<script src="assets/libs/prismjs/plugins/toolbar/prism-toolbar.min.js"></script>
+
+<script src="assets/libs/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+
+<!-- Custom js -->
+<script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
